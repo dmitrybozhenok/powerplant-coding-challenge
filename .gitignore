@@ -1,3 +1,4 @@
 /.vs
 /ProductionPlan.Api/obj/
 /ProductionPlan.Test/obj/
+/ProductionPlan.Test/bin/
