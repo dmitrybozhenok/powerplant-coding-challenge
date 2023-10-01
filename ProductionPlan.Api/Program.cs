@@ -15,11 +15,6 @@ builder.Services.AddControllers().AddNewtonsoftJson(options =>
         options.SerializerSettings.Converters.Add(new StringEnumConverter());
     });
 
-//builder.WebHost.ConfigureKestrel(options =>
-//{
-//    options.ListenLocalhost(8888); // Set your desired port here
-//});
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

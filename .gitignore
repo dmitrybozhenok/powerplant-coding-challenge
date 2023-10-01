@@ -1,1 +1,3 @@
 /.vs
+/ProductionPlan.Api/obj/
+/ProductionPlan.Test/obj/
