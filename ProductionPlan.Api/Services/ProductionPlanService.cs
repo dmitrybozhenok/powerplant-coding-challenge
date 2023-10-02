@@ -17,7 +17,7 @@ namespace ProductionPlan.Api.Services
             var wind = fuels.Wind / 100f;
             var prices = new Dictionary<PlantType, double>()
             {
-                { PlantType.gasfired, fuels.Gas + fuels.Co2 * 0.3 },
+                { PlantType.GasFired, fuels.Gas + fuels.Co2 * 0.3 },
                 { PlantType.TurboJet, fuels.Kerosine },
                 { PlantType.WindTurbine, 0 }
             };

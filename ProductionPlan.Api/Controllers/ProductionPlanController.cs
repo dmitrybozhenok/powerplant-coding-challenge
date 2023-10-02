@@ -19,8 +19,8 @@ namespace ProductionPlan.Api.Controllers
 
         [HttpPost("productionplan")]
         public IReadOnlyCollection<ProductionPlanItem> GetProductionPlan([FromBody] ProductionPlanRequest request)
-        {
-            logger.LogInformation("Production plan request received");
+        { 
+            logger.LogInformation("Production plan request received: " + request);
             return productionPlanService.GetProductionPlan(request);
         }
     }

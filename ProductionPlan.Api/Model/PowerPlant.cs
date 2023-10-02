@@ -11,7 +11,7 @@ public record PowerPlant(string Name, PlantType Type, double Efficiency, int PMi
 
 public enum PlantType
 {
-    gasfired = 0,
+    GasFired = 0,
     TurboJet = 1,
     WindTurbine = 2
 }
